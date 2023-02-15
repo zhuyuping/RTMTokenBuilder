@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.swift_versions = "5.0"
   s.static_framework = true
-  s.vendored_frameworks = "OpenSSL.framework"
+  s.dependency "OpenSSL-Universal", "1.0.2.17"
   s.ios.library  = 'z', 'c++'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
