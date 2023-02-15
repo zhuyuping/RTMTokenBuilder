@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "RtmTokenTool/TokenBuilder.h"
   s.platform = :ios
   s.swift_versions = "5.0"
-  s.dependency "OpenSSL-Universal", "1.1.1900"
   s.static_framework = true
-  s.vendored_frameworks = "OpenSSL.xcframework"
+  s.vendored_frameworks = "OpenSSL.framework"
   s.ios.library  = 'z', 'c++'
 end
