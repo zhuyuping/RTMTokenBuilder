@@ -17,6 +17,10 @@ NS_ASSUME_NONNULL_BEGIN
           appCertificate:(NSString *)appCertificate
                 userUuid:(NSString *)userUuid;
 
++ (NSString *)buildToken2:(NSString *)appID
+           appCertificate:(NSString *)appCertificate
+                 userUuid:(NSString *)userUuid;
+
 @end
 
 NS_ASSUME_NONNULL_END

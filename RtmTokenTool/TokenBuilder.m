@@ -23,5 +23,13 @@
                            uid:userUuid];
 }
 
++ (NSString *)buildToken2:(NSString *)appID
+           appCertificate:(NSString *)appCertificate
+                 userUuid:(NSString *)userUuid {
+    return [RtmTokenTool token2:appID
+                 appCertificate:appCertificate
+                            uid:userUuid];
+}
+
 
 @end

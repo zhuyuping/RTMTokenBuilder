@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RTMTokenBuilder'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'TokenBuilder'
   
   s.description      = <<-DESC
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ZYP' => 'xxx@agora.io' }
-  s.source           = { :git => 'https://github.com/zhuyuping/RTMTokenBuilder.git' }
+  s.source           = { :git => 'https://github.com/zhuyuping/RTMTokenBuilder.git', :tag => '1.0.1' }
   
   s.ios.deployment_target = '11.0'
   s.source_files  = "RtmTokenTool/**/*.{h,m,mm,cpp}"
