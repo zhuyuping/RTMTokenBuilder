@@ -6,7 +6,7 @@
 #include <memory>
 #include <string>
 
-#include "cpp/src/AccessToken2.h"
+#include "AccessToken2.h"
 
 namespace agora {
 namespace tools {
